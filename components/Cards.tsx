@@ -4,7 +4,7 @@ import { Carousel } from "react-bootstrap";
 export const Cards = ({property}) => {
     
     return (
-            <div className="flex-shrink-0 bg-white rounded-lg shadow-lg w-80 md:w-72 sm:mr-0 md:mr-6">
+            <div className="flex-shrink-0 mr-6 bg-white rounded-lg shadow-md w-80 md:w-72">
                 <Carousel interval={null}>
                     <Carousel.Item >
                         <img
